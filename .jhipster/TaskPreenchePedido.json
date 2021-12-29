@@ -1,0 +1,36 @@
+{
+  "fields": [
+    {
+      "fieldName": "nomeCliente",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "emailCliente",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "tipoAuxilio",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "valorMaximoCliente",
+      "fieldType": "Integer"
+    }
+  ],
+  "entityType": "user-task-form",
+  "processBpmnId": "PedidoInterpreteProcess",
+  "processEntityName": "PedidoInterpreteProcess",
+  "taskBpmnId": "TaskPreenchePedido",
+  "domainEntityName": "PedidoInterprete",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "TaskPreenchePedido",
+  "changelogDate": "20210401000004",
+  "relationships": []
+}

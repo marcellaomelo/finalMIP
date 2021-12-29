@@ -1,0 +1,25 @@
+{
+  "fields": [
+    {
+      "fieldName": "nomeCliente",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "emailCliente",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityType": "start-form",
+  "processBpmnId": "PedidoInterpreteProcess",
+  "processEntityName": "PedidoInterpreteProcess",
+  "domainEntityName": "PedidoInterprete",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "PedidoInterpreteStartForm",
+  "changelogDate": "20210401000002",
+  "skipFakeData": true
+}

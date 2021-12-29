@@ -1,0 +1,34 @@
+{
+  "fields": [
+    {
+      "fieldName": "percurso",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dataInicio",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dataFim",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "horarioInicio",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "duracao",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityType": "domain",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "Trajeto",
+  "changelogDate": "20211109000002",
+  "skipFakeData": true
+}

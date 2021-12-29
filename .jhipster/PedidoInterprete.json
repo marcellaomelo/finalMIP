@@ -1,0 +1,55 @@
+{
+  "fields": [
+    {
+      "fieldName": "nomeCliente",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "emailCliente",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tipoAuxilio",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "valorMaximoCliente",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "statusTrajeto",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "statusFreelancer",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "valorTotalCobrado",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipName": "freelancer",
+      "otherEntityName": "freelancer",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "nome"
+    },
+    {
+      "relationshipName": "trajeto",
+      "otherEntityName": "trajeto",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "percurso"
+    }
+  ],
+  "entityType": "domain",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": true,
+  "pagination": "no",
+  "name": "PedidoInterprete",
+  "changelogDate": "20210401000001",
+  "skipFakeData": true
+}

@@ -1,0 +1,29 @@
+{
+  "fields": [
+    {
+      "fieldName": "statusTrajeto",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipName": "trajeto",
+      "otherEntityName": "trajeto",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "percurso"
+    }
+  ],
+  "entityType": "user-task-form",
+  "processBpmnId": "PedidoInterpreteProcess",
+  "processEntityName": "PedidoInterpreteProcess",
+  "taskBpmnId": "TaskPreencheStatusTrajeto",
+  "domainEntityName": "PedidoInterprete",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "TaskPreencheStatusTrajeto",
+  "changelogDate": "20210401000004"
+}
